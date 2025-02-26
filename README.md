@@ -27,34 +27,27 @@ Finally, add the following line to it, where [...] will replace the previously o
 
 ## Parameters
 
-Path
-: specifies the path to the question folder, supports relative and absolute paths. This parameter can be used as a pipeline.
+- **Path** - specifies the path to the question folder, supports relative and absolute paths. This parameter can be used as a pipeline.
 
-ConfigFile
-: Specifies the path to the configuration file, supports relative and absolute paths. Files in **JSON** format are supported, with config.json being the default.
+- **ConfigFile** - Specifies the path to the configuration file, supports relative and absolute paths. Files in **JSON** format are supported, with config.json being the default.
 
-Roud
-: Determines the initial number of repetitions of a single question. The default setting: -1 is for the correctness of the config.
+- **Roud** - Determines the initial number of repetitions of a single question. The default setting: -1 is for the correctness of the config.
 
-WrongAdd
-: Determines the number of repetitions added during an incorrect answer. The default setting: -1 is for the correctness of the config.
+- **WrongAdd** - Determines the number of repetitions added during an incorrect answer. The default setting: -1 is for the correctness of the config.
 
-MaxAdd
-: Specifies the maximum number of repetitions that can be reached. The default setting: -1 is for the correctness of the config.
+- **MaxAdd** - Specifies the maximum number of repetitions that can be reached. The default setting: -1 is for the correctness of the config.
 
 > [!IMPORTANT]
 > If **MaxAdd** is equal to **Roud** then no new question duplicates will be added..
 
-Bulletin
-: Specifies the preferred type of bullet: count or letter. The programme is not case-sensitive. Possible options are: 
+- **Bulletin** - Specifies the preferred type of bullet: count or letter. The programme is not case-sensitive. Possible options are: 
 
-- **num** - number
-- **alf** - alphabetically
+  - **num** - number
+  - **alf** - alphabetically
 
 The default setting is for the correctness of the config. 
 
-StartNumber
-: Specifies the start of scoring for numerical bulletin. Possible options are: **0** or **1**. The default setting: -1 is for the correctness of the config.
+- **StartNumber** - Specifies the start of scoring for numerical bulletin. Possible options are: **0** or **1**. The default setting: -1 is for the correctness of the config.
 
 ## Config
 
